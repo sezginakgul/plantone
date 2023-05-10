@@ -10,6 +10,8 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="http://www.getplantone.com/wp-content/themes/plantone_2018/This_is_plantone.mp4"
+        as="video">
     <title>Plantone</title>
 </head>
 
@@ -54,7 +56,7 @@
     <div class=" my-auto container" data-aos="zoom-in">
         <div class="">
 
-            <video class="video p-0 lazy" preload="metadata" width="100%" autoplay muted playsinline
+            <video class="video p-0 lazy" id="video" preload="none" width="100%" autoplay muted playsinline
                 data-aos="zoom-in-down" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="1500"
                 style="border:none; object-fit: cover;">
                 <source src=" http://www.getplantone.com/wp-content/themes/plantone_2018/This_is_plantone.mp4"
