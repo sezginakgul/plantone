@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.video {
+  max-height: calc(100vh - 79px);
+  min-height: calc(100vh - 79px);
+}
+
+.product-img {
+  transition: all ease-in-out 0.5s;
+}
+
+.product-img:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  font-size: large;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 0.2s;
+}
+
+.footer a:hover {
+  color: black;
+}
+
+.shipping {
+  height: calc(100vh - 365px);
+}
