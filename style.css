@@ -10,6 +10,7 @@
 .video {
   max-height: calc(100vh - 79px);
   min-height: calc(100vh - 79px);
+  /* width: 100%; */
 }
 
 .product-img {
