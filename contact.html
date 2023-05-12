@@ -10,17 +10,15 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="preload" href="http://www.getplantone.com/wp-content/themes/plantone_2018/This_is_plantone.mp4"
-        as="video">
-    <title>Plantone</title>
+    <title>Contact</title>
 </head>
 
 <body>
-    <!--* NAVBAR START  -->
+    <!--* NAVBAR START -->
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="http://www.getplantone.com/wp-content/themes/plantone_2018/images/logo.svg" width="160px"
                     alt="plantone">
             </a>
@@ -39,10 +37,10 @@
                         <a class="nav-link" href="#">Products</a>
                     </li>
                     <li class="nav-item mx-lg-2">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -51,62 +49,39 @@
 
     <!--* NAVBAR END -->
 
-    <!--* VIDEO START -->
+    <!--* CONTENT START -->
+    <div class="row  d-flex justify-content-center mx-auto ">
+        <div class="col-md-8 col-lg-6 col-xxl-5 shipping d-flex flex-column justify-content-center px-4 px-md-0">
 
-    <div class=" my-auto container" data-aos="zoom-in">
-
-        <video class="video p-0 lazy" id="video" preload="none" width="100%" autoplay muted playsinline
-            data-aos="zoom-in-down" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="1500"
-            style="border:none; object-fit: cover;">
-            <source src=" http://www.getplantone.com/wp-content/themes/plantone_2018/This_is_plantone.mp4"
-                type="video/mp4" style="border: none;">
-        </video>
-    </div>
-
-    <!--* VIDEO END-->
-
-    <!--* PRODUCTS START -->
-
-    <div class="container d-block">
-        <h1 class="row d-flex justify-content-center  my-5" data-aos="fade-up" data-aos-duration="1200">Products</h1>
-        <div class="row">
-            <div class="col-12 col-lg-6 text-center">
-                <a href="#" class="text-decoration-none">
-
-                    <img src="http://www.getplantone.com/wp-content/uploads/2018/08/plantone_2.jpg" width="100%"
-                        height="100%" class="object-fit-cover rounded-3" alt="plantone" alt="seed" data-aos="fade-right"
-                        data-aos-duration="1500">
-                    <div class="row p-0" data-aos="fade-up" data-aos-duration="1000">
-                        <h3 class="text-dark pt-3 ">Plantone</h3>
-                        <h6 class="text-black-50">
-                            Pre-order available
-                        </h6>
-                    </div>
-                </a>
-            </div>
-            <div class="col-12 col-lg-6 pt-5 pt-lg-0 mt-5 mt-lg-0 text-center d-block">
-
-
-                <a href="#" class="text-decoration-none">
-
-                    <img src="http://www.getplantone.com/wp-content/uploads/2018/08/7cb3d4a92c0316b0a922b4cd78393070_original.jpg"
-                        width="100%" height="100%" class="object-fit-cover rounded-3" alt="seed" data-aos="fade-left"
-                        data-aos-duration="1500">
-
-                </a>
-                <div class="row p-0" data-aos="fade-up" data-aos-duration="1000">
-                    <h3 class="text-dark pt-3">Seed Collection</h3>
+            <h1 class="mt-5 fw-bold display-5 text-center" sdata-aos="fade-up" data-aos-duration="1200">Contact
+            </h1>
+            <div class="fw-medium mt-3 mb-5" style="text-align: justify;">
+                <p data-aos="fade-right" data-aos-duration="1500">
+                    sd
+                </p>
+                <div class="py-2 " data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
+                    <h6 class="text-decoration-underline">
+                        Address
+                    </h6>
+                    <p>
+                        Franklin Square 1300 1 Street NW, Suite 400E.
+                        <br>
+                        Washington, 20005, District of Colombia, United States.
+                    </p>
 
                 </div>
+
             </div>
         </div>
     </div>
 
-    <!--* PRODUCTS END -->
+    <!--* CONTENT END -->
 
-    <div class="row mx-0 mt-5 ">
-        <hr class="mt-5 mb-3">
+
+    <div class="mt-5 ">
+        <hr class="my-3">
     </div>
+
 
     <!--* FOOTER START -->
 
@@ -146,12 +121,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-    </script>
-    <script>
-        window.addEventListener('DOMContentLoaded', function () {
-            let video = document.getElementById('video');
-            video.preload = 'auto';
-        });
     </script>
 </body>
 
