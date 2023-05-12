@@ -218,6 +218,13 @@
             });
         });
     </script>
+    <script>
+        var backgroundVideo = document.getElementById('backgroundVideo');
+        backgroundVideo.addEventListener('loadedmetadata', function () {
+            this.controls = false;
+            this.play();
+        });
+    </script>
 </body>
 
 </html>
