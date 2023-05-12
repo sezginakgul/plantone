@@ -151,6 +151,11 @@
         window.addEventListener('DOMContentLoaded', function () {
             let video = document.getElementById('video');
             video.preload = 'auto';
+
+            // Mobil cihazlarda otomatik oynatmayı etkinleştirme
+            video.addEventListener('canplay', function () {
+                video.play();
+            });
         });
     </script>
 </body>
